@@ -1,10 +1,11 @@
+
 # 953261 Lab 1 — First Node.js Server
 
 | | |
 |---|---|
-| **Name** | _your full name_ |
-| **Nickname** | _your nickname_ |
-| **Student ID** | _6xxxxxxxx_ |
+| **Name** | Aye Nrein Khine |
+| **Nickname** | Avery |
+| **Student ID** | 692115501 |
 | **Section** | 701 |
 
 ## How to run
@@ -14,12 +15,14 @@ cd lab01
 npm start
 ```
 
-Then open <http://localhost:3000> and <http://localhost:3000/api/me>.
+Then open http://localhost:3000 and http://localhost:3000/api/me
 
 ## What I learned today
 
-_Write 2–3 sentences in your own words: what happens between typing a URL and seeing the page?_
+I learned that when I type a URL, the browser sends a request to the server, and the server sends a response back to the browser.
+I learned how to use Node.js to return HTML pages, JSON data, and a 404 response for unknown URLs.
+I also learned how to use Git to save changes and push my code to GitHub.
 
 ## AI-use statement
 
-_Did you use an AI tool in this lab? If yes, which one and for what (e.g., "ChatGPT to explain a Git error message"). If no, write "No AI tools used."_
+I used ChatGPT to help me understand Git errors, Git commands, and Node.js code. I also used it to help fix errors in my code and tested the results myself.
