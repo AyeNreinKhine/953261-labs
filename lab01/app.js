@@ -22,7 +22,20 @@ const server = http.createServer((req, res) => {
   }
 
   // TODO: add GET /api/me here
+if (req.method === "GET" && req.url === "/api/me") {
+  const myInfo = {
+    name: "Avery",
+    studentId: "692115501",
+    favouriteLanguage: "JavaScript"
+  };
 
+  res.writeHead(200, {
+    "Content-Type": "application/json"
+  });
+
+  res.end(JSON.stringify(myInfo));
+  return;
+}
   // TODO: replace this with a proper 404 response
   res.writeHead(200, { "Content-Type": "text/plain" });
   res.end("Not done yet");
