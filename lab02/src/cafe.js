@@ -164,3 +164,10 @@ export function namesByCategory(menu) {
     };
   }, {});
 }
+// Task 11 (custom) — filter + map
+// Return the names of items that are currently out of stock.
+export function soldOutItems(menu) {
+  return menu
+    .filter((item) => !item.available)
+    .map((item) => item.name);
+}
