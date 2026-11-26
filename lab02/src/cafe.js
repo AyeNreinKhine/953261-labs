@@ -165,7 +165,8 @@ export function namesByCategory(menu) {
   }, {});
 }
 // Task 11 (custom) — filter + map
-// Return the names of items that are currently out of stock.
+// Return the names of menu items that are currently sold out (available is false).
+// soldOutItems(menu) → ["Butterfly Pea Soda"]
 export function soldOutItems(menu) {
   return menu
     .filter((item) => !item.available)
